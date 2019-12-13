@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.CardView.Note"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/padding_small">
+
+        <TextView
+            android:id="@+id/text_view_priority"
+            style="@style/TextAppearance.AppCompat.Base.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/kameron"
+            android:text="@string/default_priority"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_very_large" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            style="@style/TextAppearance.AppCompat.Base.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/text_view_priority"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/default_title" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            style="@style/TextAppearance.AppCompat.Base.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title"
+            android:maxLines="5"
+            android:text="@string/default_description" />
+
+        <RelativeLayout
+            android:id="@+id/layout_reminder_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_description"
+            android:layout_marginTop="@dimen/margin_very_small"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/text_view_reminder_info"
+                style="@style/TextAppearance.AppCompat.Base.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="@dimen/margin_very_small"
+                android:layout_toStartOf="@id/image_view_reminder_info"
+                android:text="@string/date" />
+
+            <ImageView
+                android:id="@+id/image_view_reminder_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/content_desc_reminder_on"
+                android:src="@drawable/ic_reminder_on"
+                android:tint="@color/colorText" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

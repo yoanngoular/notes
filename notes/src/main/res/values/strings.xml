@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="title_list_of_notes">List of notes</string>
+    <string name="title_create_note">Create a note</string>
+    <string name="title_update_note">Update a note</string>
+
+    <string name="default_priority" translatable="false">1</string>
+    <string name="default_title">Title</string>
+    <string name="default_description">Description</string>
+    <string name="default_reminder" translatable="false">December 7, 2020 10:30 AM</string>
+
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="delete_all_notes_confirmation">Are you sure to delete all the notes? This action is irreversible.</string>
+    <string name="delete_all_notes_successful">All notes deleted successfully</string>
+    <string name="delete_note_successful">Note deleted successfully</string>
+
+    <string name="update_note_failed">Note could not be updated</string>
+    <string name="error_title_empty">Title cannot be empty, please fill in the form</string>
+    <string name="add_reminder">Add reminder</string>
+    <string name="reminder_set">Reminder set for the</string>
+
+    <string name="no_notes_available">No notes are currently available. Please add one using the floating button.</string>
+    <string name="no_notes_to_delete">No notes to delete</string>
+
+    <string name="sort_by">Sort by</string>
+    <string name="sort_notes">Sort notes</string>
+    <string name="higher_priority">Higher priority</string>
+    <string name="last_modified">Last modified</string>
+
+    <string name="abort">Abort</string>
+    <string name="date">Date</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="yes">Yes</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+
+    <string name="bundle_note_id" translatable="false">id</string>
+    <string name="bundle_note_title" translatable="false">title</string>
+    <string name="bundle_note_description" translatable="false">description</string>
+    <string name="bundle_note_priority" translatable="false">priority</string>
+    <string name="bundle_save_mode" translatable="false">save_mode</string>
+    <string name="bundle_reminders" translatable="false">reminders</string>
+
+    <string name="content_desc_reminder_on" translatable="false">Image reminder on</string>
+    <string name="content_desc_edit_reminder" translatable="false">Image edit reminder</string>
+    <string name="content_desc_delete_reminder" translatable="false">Image delete reminder</string>
+
+    <string name="notification_channel_name" translatable="false">Reminders</string>
+
+    <string name="dummy_first_title">First Note!</string>
+    <string name="dummy_second_title">Second Note!</string>
+    <string name="dummy_third_title">Third Note!</string>
+    <string name="dummy_first_desc">First description</string>
+    <string name="dummy_second_desc">Second description</string>
+    <string name="dummy_third_desc">Third description</string>
+
+</resources>

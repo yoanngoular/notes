@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="abort">Annuler</string>
+    <string name="add_reminder">Ajouter un rappel</string>
+    <string name="date">Date</string>
+    <string name="delete_all_notes">Supprimer toutes les notes</string>
+    <string name="delete_all_notes_confirmation">Étes vous sur de vouloir supprimer toutes les notes ? Cette action est irréversible.</string>
+    <string name="delete_all_notes_successful">Notes supprimées avec succès</string>
+    <string name="delete_note_successful">Note supprimée avec succès</string>
+    <string name="done">Valider</string>
+    <string name="error_title_empty">Le titre ne peut être vide, remplissez le champ</string>
+    <string name="no_notes_available">Aucune note disponible. Veuillez en créer une à l\'aide du bouton flottant.</string>
+    <string name="no_notes_to_delete">Aucune note à supprimer</string>
+    <string name="reminder_set">Rappel définit pour le</string>
+    <string name="save">Sauvegarde</string>
+    <string name="sort_by">Trier par</string>
+    <string name="sort_notes">Trier les notes</string>
+    <string name="title_create_note">Créer une note</string>
+    <string name="title_list_of_notes">Liste des notes</string>
+    <string name="title_update_note">Modifier une note</string>
+    <string name="undo">Annuler</string>
+    <string name="update_note_failed">La note n\'a pas pu être modifiée</string>
+    <string name="yes">Oui</string>
+    <string name="higher_priority">La plus forte priorité</string>
+    <string name="last_modified">La dernière modifiée</string>
+    <string name="create">Créer</string>
+    <string name="update">Valider</string>
+    <string name="default_description">Description</string>
+    <string name="default_title">Titre</string>
+    <string name="dummy_first_desc">Première description</string>
+    <string name="dummy_first_title">Premier titre !</string>
+    <string name="dummy_second_desc">Seconde description</string>
+    <string name="dummy_second_title">Second titre !</string>
+    <string name="dummy_third_desc">Troisième description</string>
+    <string name="dummy_third_title">Troisième titre !</string>
+</resources>

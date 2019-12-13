@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.CardView.Note" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginStart">@dimen/padding_small</item>
+        <item name="android:layout_marginTop">@dimen/padding_small</item>
+        <item name="android:layout_marginEnd">@dimen/padding_small</item>
+        <item name="cardBackgroundColor">@color/colorBackground</item>
+        <item name="cardCornerRadius">@dimen/radius_small</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.Large" parent="TextAppearance.AppCompat.Base">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.Medium" parent="TextAppearance.AppCompat.Base">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.Small" parent="TextAppearance.AppCompat.Base">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+</resources>
