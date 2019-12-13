@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="oval" android:tint="@color/colorNeutral"/>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/ic_note_add"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        />
+</layer-list>

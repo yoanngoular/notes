@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/noteFragment">
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.ygoular.notes.view.ui.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note">
+        <action
+            android:id="@+id/action_noteFragment_to_addEditNoteFragment"
+            app:destination="@id/addEditNoteFragment"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:exitAnim="@anim/fragment_close_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditNoteFragment"
+        android:name="com.ygoular.notes.view.ui.AddEditNoteFragment"
+        android:label="fragment_add_edit_note"
+        tools:layout="@layout/fragment_add_edit_note">
+        <argument
+            android:name="@string/bundle_note_id"
+            android:defaultValue="-1L"
+            app:argType="long" />
+        <argument
+            android:name="@string/bundle_note_title"
+            android:defaultValue="Title"
+            app:argType="string" />
+        <argument
+            android:name="@string/bundle_note_description"
+            android:defaultValue="Description"
+            app:argType="string" />
+        <argument
+            android:name="@string/bundle_note_priority"
+            app:argType="com.ygoular.notes.database.entity.Priority" />
+        <argument
+            android:name="@string/bundle_save_mode"
+            app:argType="com.ygoular.notes.view.ui.AddEditNoteFragment$SaveMode" />
+        <argument
+            android:name="@string/bundle_reminders"
+            app:argType="string[]" />
+    </fragment>
+</navigation>

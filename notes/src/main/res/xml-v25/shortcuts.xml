@@ -1,0 +1,16 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="create_note"
+        android:enabled="true"
+        android:icon="@drawable/shortcut_create_note"
+        android:shortcutShortLabel="@string/shortcut_create_note_short_label"
+        android:shortcutLongLabel="@string/shortcut_create_note_long_label"
+        android:shortcutDisabledMessage="@string/shortcut_create_note_disabled_message"
+        >
+        <intent
+            android:action="com.ygoular.notes.create"
+            android:targetPackage="com.ygoular.notes"
+            android:targetClass="com.ygoular.notes.view.ui.NoteActivity" />
+        <categories android:name="android.shortcut.note" />
+    </shortcut>
+</shortcuts>

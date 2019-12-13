@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_add_edit_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundDark"
+    tools:context=".view.ui.AddEditNoteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                style="@style/Widget.MaterialComponents.CardView.Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="noExcludeDescendants"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_small">
+
+                    <NumberPicker
+                        android:id="@+id/number_picker_priority"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/default_priority"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <EditText
+                        android:id="@+id/edit_text_title"
+                        style="@style/TextAppearance.AppCompat.Base.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/number_picker_priority"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@id/number_picker_priority"
+                        android:fontFamily="@font/roboto"
+                        android:hint="@string/default_title"
+                        android:inputType="textCapSentences"
+                        android:maxLength="120" />
+
+                    <EditText
+                        android:id="@+id/edit_text_description"
+                        style="@style/TextAppearance.AppCompat.Base.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/edit_text_title"
+                        android:layout_alignEnd="@+id/number_picker_priority"
+                        android:layout_alignParentStart="true"
+                        android:hint="@string/default_description"
+                        android:inputType="textMultiLine" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/layout_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_reminders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/reminder_item" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_save"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:background="@drawable/bg_rectangle_big_radius"
+                android:text="@string/save"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_reminder" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
