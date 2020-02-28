@@ -2,13 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/delete_all"
-        android:title="@string/delete_all_notes"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/sort_notes"
-        android:icon="@drawable/ic_sort"
-        android:title="@string/sort_notes"
-        app:showAsAction="ifRoom" />
+    <group
+        android:id="@+id/main_menu"
+        android:visible="true">
+        <item
+            android:id="@+id/delete_all"
+            android:title="@string/delete_all_notes"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/sort_notes"
+            android:icon="@drawable/ic_sort"
+            android:title="@string/sort_notes"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <group
+        android:id="@+id/selection_mode_menu"
+        android:visible="false">
+        <item
+            android:id="@+id/share_notes"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share_notes"
+            app:showAsAction="ifRoom" />
+    </group>
+
+
 </menu>

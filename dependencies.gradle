@@ -41,6 +41,7 @@ versions.room = "2.2.2"
 versions.rx_android = "2.0.1"
 versions.rxjava2 = "2.2.15"
 versions.support = "1.2.0-alpha01"
+versions.recyclerview_selection = "1.1.0-rc01"
 versions.work = "2.3.0-beta01"
 ext.versions = versions
 
@@ -54,6 +55,7 @@ def support = [:]
 support.annotations = "androidx.annotation:annotation:$versions.support"
 support.app_compat = "androidx.appcompat:appcompat:$versions.support"
 support.recyclerview = "androidx.recyclerview:recyclerview:$versions.support"
+support.recyclerview_selection = "androidx.recyclerview:recyclerview-selection:$versions.recyclerview_selection"
 support.cardview = "androidx.cardview:cardview:$versions.support"
 support.design = "com.google.android.material:material:$versions.support"
 support.v4 = "androidx.legacy:legacy-support-v4:$versions.support"

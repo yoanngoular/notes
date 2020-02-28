@@ -10,7 +10,7 @@
         <item name="android:layout_marginStart">@dimen/padding_small</item>
         <item name="android:layout_marginTop">@dimen/padding_small</item>
         <item name="android:layout_marginEnd">@dimen/padding_small</item>
-        <item name="cardBackgroundColor">@color/colorBackground</item>
+        <item name="cardBackgroundColor">@color/color_note_item</item>
         <item name="cardCornerRadius">@dimen/radius_small</item>
     </style>
 

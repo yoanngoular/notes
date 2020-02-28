@@ -4,7 +4,7 @@ import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date
-
+// TODO: Add periodicity in reminders
 data class Reminder(val mId: Int, val mDate: Date) {
 
     companion object {

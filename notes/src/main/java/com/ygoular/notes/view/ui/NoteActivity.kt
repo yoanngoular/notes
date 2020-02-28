@@ -11,6 +11,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.ygoular.notes.R
 
+
 class NoteActivity : AppCompatActivity() {
 
     companion object {

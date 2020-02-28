@@ -78,8 +78,6 @@ class AddEditNoteFragment : Fragment() {
                 return@setOnClickListener
             }
 
-            (activity as NoteActivity).hideKeyboard(view)
-
             val newNote = NoteEntity(
                 title,
                 description,

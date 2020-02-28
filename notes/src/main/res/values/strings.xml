@@ -18,15 +18,19 @@
     <string name="update_note_failed">Note could not be updated</string>
     <string name="error_title_empty">Title cannot be empty, please fill in the form</string>
     <string name="add_reminder">Add reminder</string>
-    <string name="reminder_set">Reminder set for the</string>
+    <string name="reminder_set">Reminder set for the %1$s</string>
 
     <string name="no_notes_available">No notes are currently available. Please add one using the floating button.</string>
     <string name="no_notes_to_delete">No notes to delete</string>
 
     <string name="sort_by">Sort by</string>
     <string name="sort_notes">Sort notes</string>
+    <string name="share_notes">Share notes</string>
     <string name="higher_priority">Higher priority</string>
     <string name="last_modified">Last modified</string>
+
+    <string name="sharing_title">Select the application you want to use to share your notes</string>
+    <string name="sharing_intro">I\'m sharing with you the following notes:</string>
 
     <string name="abort">Abort</string>
     <string name="date">Date</string>

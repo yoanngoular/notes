@@ -12,7 +12,7 @@
     <string name="error_title_empty">Le titre ne peut être vide, remplissez le champ</string>
     <string name="no_notes_available">Aucune note disponible. Veuillez en créer une à l\'aide du bouton flottant.</string>
     <string name="no_notes_to_delete">Aucune note à supprimer</string>
-    <string name="reminder_set">Rappel définit pour le</string>
+    <string name="reminder_set">Rappel définit pour le %1$s</string>
     <string name="save">Sauvegarde</string>
     <string name="sort_by">Trier par</string>
     <string name="sort_notes">Trier les notes</string>
@@ -37,4 +37,7 @@
     <string name="shortcut_create_note_short_label">Créer note</string>
     <string name="shortcut_create_note_long_label">Créer une nouvelle note</string>
     <string name="shortcut_create_note_disabled_message">Création de notes actuellement indisponible</string>
+    <string name="share_notes">Partager les notes</string>
+    <string name="sharing_title">Choisi l\'application que tu souhaites utiliser pour partager tes notes</string>
+    <string name="sharing_intro">Je partage avec toi les notes suivantes :</string>
 </resources>

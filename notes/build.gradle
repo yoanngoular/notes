@@ -53,6 +53,7 @@ dependencies {
     implementation deps.support.core_ktx
     implementation deps.support.constraint_layout
     implementation deps.support.fragment_ktx
+    implementation deps.support.recyclerview_selection
 
     // Architecture components
     implementation deps.lifecycle.runtime

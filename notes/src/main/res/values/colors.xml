@@ -6,6 +6,7 @@
     <color name="colorAccentLight">#ff9142</color>
 
     <color name="colorBackground">#ffffff</color>
+    <color name="colorBackgroundSelected">#cccccc</color>
     <color name="colorBackgroundDark">#d6d6d6</color>
 
     <color name="colorText">#000000</color>
