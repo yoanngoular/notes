@@ -109,6 +109,10 @@ class AddEditNoteFragment : Fragment() {
         }
 
         edit_text_title.requestFocus()
+
+        if (mSaveMode == SaveMode.CREATE) {
+            (activity as NoteActivity).showKeyboard()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
